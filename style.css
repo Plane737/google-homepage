@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+#nav a.topimage {
+    width: 32px;
+    height: 32px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#middle {
+    margin-top: 230px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    margin-top: 25px;
+    text-align: center;
+}
+#searchbar {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 20px;
+    width: 550px;
+    outline: 0;
+    border-radius: 30px;
+    border:1px solid rgb(168, 168, 168);
+}
+
+#buttons {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    background: #f8f9fa;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
