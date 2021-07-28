@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+ul > img {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-img-app:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+ul > a, ul > img {
+    padding: 5px 5px 5px 5px;
+}
